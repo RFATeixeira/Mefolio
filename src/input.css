@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Fira+Code:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hbtn1 {
+    @apply hover:bg-brand-color/70 transition duration-300 border-2 border-brand-color bg-brand-color text-dark-10 font-semibold rounded py-1;
+  }
+  .hbtn2 {
+    @apply hover:bg-brand-color/20 transition duration-300 border-2 border-brand-color text-brand-color font-semibold rounded py-1;
+  }
+  .hicons {
+    @apply hover:border-brand-color size-14 bg-dark-20 border border-dark-30 rounded-full p-3 transition duration-300;
+  }
+  .social {
+    @apply flex flex-col items-center justify-center gap-4;
+  }
+  .card {
+    @apply w-[592px] flex flex-col gap-5;
+  }
+  .cardbox {
+    @apply bg-dark-20 border border-dark-30 flex w-full h-[200px] justify-center items-center rounded;
+  }
+  .cardtitle {
+    @apply font-medium text-2xl;
+  }
+  .cardboxtext {
+    @apply text-brand-color text-2xl;
+  }
+  .cardtecuse {
+    @apply text-brand-color font-medium text-lg;
+  }
+  .sections {
+    @apply mt-32 flex flex-col justify-center items-center max-w-[1216px] w-full mx-10 gap-10;
+  }
+  .sectiontitle {
+    @apply text-brand-color text-[32px];
+  }
+  .cardservice {
+    @apply w-[384px] h-[240px] bg-dark-20 border border-dark-30 border-b-2 border-b-brand-color p-10 flex flex-col justify-center gap-8 hover:border-brand-color transition duration-300;
+  }
+  .cardabilit {
+    @apply w-[176px] h-[150px] bg-dark-20 border border-dark-30 items-center justify-center flex hover:border-brand-color transition duration-300;
+  }
+  .bystar {
+    @apply text-brand-color hover:text-brand-color/80 transition duration-300;
+  }
+}
